@@ -1,0 +1,39 @@
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #aec6f3;
+}
+
+h3{
+  color: hsl(219, 18%, 26%);
+  padding-top: 10px;
+}
+
+.receipt{
+  height: 80vh;
+  width: auto;
+  max-height: 80vh;
+  background-color: white;
+  box-shadow: 2px 2px gray;
+  border-radius: 10px;
+}
+
+button{
+  background-color: hsl(340, 100%, 90%);
+  border-radius: 8px!important;
+  padding: 8px;
+  color: rgb(105, 71, 83);
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: hsl(340, 100%, 90%);
+}
+
+.order-item{
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
